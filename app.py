@@ -8,7 +8,7 @@ app = Flask(__name__)
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="Sneha@220",  
+    password="mysql",  
     database="payment_db"
 )
 cursor = db.cursor()
@@ -26,7 +26,7 @@ def pay():
     name = request.form['name']
     email = request.form['email']
     sender_upi = request.form['sender_upi_id']
-    receiver_upi = "6281917774-2@axl"
+    receiver_upi = "upi_id"
 
     if gmail_exists(email):
         cursor.execute(
