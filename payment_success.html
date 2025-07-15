@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Payment Confirmation</title>
+</head>
+<body>
+    <h2>Payment Confirmation</h2>
+    <p><strong>Receiver's UPI ID:</strong> {{ receiver_upi }}</p>
+    <p>Click the button below to pay ₹1 to the receiver:</p>
+    <a href="{{ upi_url }}">
+      <button>Pay Now</button>
+    </a>
+</body>
+</html>
