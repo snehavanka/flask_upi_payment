@@ -1,5 +1,9 @@
 # flask_upi_payment
 A Flask app that captures payer details and generates UPI payment links for instant mobile payments.
+ NAME : V . SNEHA 
+ DOMAIN : WEB DEVELOPMENT
+ DURATION : JUNE 2025 TO JULY 2025
+ MENTOR : DR . G. RAMAKRISHNA (IIT Tirupati)
 1. Objective
 ##  Objective
 To create a basic payment system that:
